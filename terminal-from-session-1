@@ -1,0 +1,1043 @@
+Desktop                 Downloads               Movies                  Pictures                hello-node              node_modules            week1
+Brads-MBP:~ bradgarner$ cd Desktop/
+Brads-MBP:Desktop bradgarner$ ls
+23755131_1977491705908224_7810460814359538494_n.jpg                     Screen Shot 2017-12-30 at 9.52.12 AM.png
+3-week-txt.txt                                                          Screen Shot 2017-12-30 at 9.52.21 AM.png
+5a259653150000459385b620.jpeg                                           Screen Shot 2017-12-30 at 9.58.08 PM.png
+BWDG-300.gifcask                                                        Screen Shot 2017-12-30 at 9.58.41 PM.png
+Design inspiration                                                      Screen Shot 2017-12-31 at 7.02.41 PM.png
+Drawing.png                                                             Screen Shot 2018-01-01 at 10.48.49 PM.png
+FileMaker DBs to Delete                                                 Screen Shot 2018-01-01 at 10.49.06 PM.png
+Rip Your Resume In Half - And Other Things You Won't Hear From HR.pdf   Thinkful
+Screen Shot 2017-11-27 at 3.45.42 PM.png                                alphabet.js
+Screen Shot 2017-11-27 at 3.55.52 PM.png                                blog
+Screen Shot 2017-11-27 at 3.55.57 PM.png                                bradgarner
+Screen Shot 2017-12-01 at 10.54.01 AM.png                               bradscrazychair.jpeg
+Screen Shot 2017-12-01 at 10.54.19 AM.png                               briangibson
+Screen Shot 2017-12-01 at 10.54.41 AM.png                               css.css
+Screen Shot 2017-12-05 at 5.20.07 PM.png                                gif1.gif
+Screen Shot 2017-12-07 at 12.16.51 AM.png                               indexing.numbers
+Screen Shot 2017-12-20 at 1.05.48 PM.png                                interview.js
+Screen Shot 2017-12-22 at 9.05.23 AM.png                                popham-beach-erosion-13-728.jpg
+Screen Shot 2017-12-22 at 9.05.33 AM.png                                preview.jpg
+Screen Shot 2017-12-22 at 9.05.45 AM.png                                put-fix.js
+Screen Shot 2017-12-22 at 9.05.52 AM.png                                spacedRepetitionFlow-update.numbers
+Screen Shot 2017-12-30 at 9.52.00 AM.png                                stocks 2.numbers
+Brads-MBP:Desktop bradgarner$ cd Thinkful/
+Brads-MBP:Thinkful bradgarner$ create-react-native-app react-native-app1
+Creating a new React Native app in /Users/bradgarner/Desktop/Thinkful/react-native-app1.
+
+Using package manager as npm with npm interface.
+Installing packages. This might take a couple minutes.
+Installing react-native-scripts...
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN react-redux@5.0.6 requires a peer of react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0 but none was installed.
+
++ react-native-scripts@1.8.1
+added 423 packages in 99.6s
+
+*******************************************************************************
+ERROR: npm 5 is not supported yet
+*******************************************************************************
+
+It looks like you're using npm 5 which was recently released.
+
+Create React Native App doesn't work with npm 5 yet, unfortunately. We
+recommend using npm 4 or yarn until some bugs are resolved.
+
+You can follow the known issues with npm 5 at:
+https://github.com/npm/npm/issues/16991
+
+*******************************************************************************
+
+Brads-MBP:Thinkful bradgarner$ npm -v
+5.3.0
+Brads-MBP:Thinkful bradgarner$ yarn -v
+bash: yarn: command not found
+Brads-MBP:Thinkful bradgarner$ brew install yarn
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 2 taps (heroku/brew, homebrew/core).
+==> New Formulae
+apm-server                      clingo                          gifski                          libidn2                         prodigal                        sratoolkit
+arcade-learning-environment     cp2k                            glslviewer                      librealsense@1                  pspg                            stress-ng
+auditbeat                       darksky-weather                 go-statik                       libtomcrypt                     qpid-proton                     telnetd
+avimetaedit                     ddgr                            google-authenticator-libpam     monero                          quicktype                       tnftp
+bamtools                        diamond                         gox                             mongodb@3.4                     rawtoaces                       tnftpd
+bcftools                        dislocker                       igv                             mrboom                          raylib                          travis
+bedops                          dnsdist                         inspectrum                      neal                            rst-lint                        vcftools
+bedtools                        elektra                         joplin                          node@8                          rsync-time-backup               vert
+bioawk                          envconsul                       kallisto                        nopoll                          samtools                        visp
+blast                           fastqc                          kedge                           opencascade                     sceptre                         yq
+bwa                             fbi-servefiles                  kubeless                        orocos-kdl                      seqtk
+chamber                         field3d                         kumo                            picard-tools                    sickle
+cling                           genometools                     lammps                          pinboard-notes-backup           spades
+==> Updated Formulae
+gdbm ✔                          dcm2niix                        gpsbabel                        libressl                        pandoc-citeproc                 sispmctl
+heroku ✔                        dcos-cli                        gradle                          librsvg                         pandoc-crossref                 sjk
+heroku/brew/heroku ✔            debianutils                     gradle-completion               libsass                         parallel                        skinny
+heroku/brew/heroku-node ✔       dependency-check                grafana                         libsodium                       pari                            slackcat
+icu4c ✔                         devd                            grails                          libsoup                         pass                            snakemake
+mongodb ✔                       dhall-json                      grakn                           libstfl                         passenger                       snappy
+node ✔                          dialog                          graphicsmagick                  libswiften                      passpie                         snapraid
+numpy ✔                         diff-pdf                        grib-api                        libtcod                         payara                          snort
+openssl ✔                       diff-so-fancy                   gron                            libtensorflow                   pazpar2                         sonarqube
+python3 ✔                       diffoscope                      groonga                         libtiff                         pcl                             source-highlight
+ruby ✔                          digdag                          grpc                            libtins                         pcsc-lite                       sourcery
+abcm2ps                         direnv                          gsoap                           libtorrent-rasterbar            pdf2htmlex                      spdlog
+abcmidi                         django-completion               gspell                          libu2f-server                   pdftoedn                        sphinx-doc
+abyss                           dlib                            gst-editing-services            libunistring                    pdftoipe                        spigot
+ace                             dmd                             gst-libav                       libuv                           pdns                            spin
+ack                             dmtx-utils                      gst-plugins-bad                 libvirt                         pdnsrec                         spotbugs
+acmetool                        dnscrypt-proxy                  gst-plugins-base                libvisio                        peco                            sql-translator
+advancemame                     docfx                           gst-plugins-good                libwebsockets                   pegtl                           sqlcipher
+adwaita-icon-theme              docker                          gst-plugins-ugly                libwps                          percona-server                  sqlmap
+agedu                           docker-completion               gst-python                      libxc                           percona-server@5.5              squashfs
+akamai                          docker-compose                  gst-rtsp-server                 libxkbcommon                    percona-server@5.6              sshguard
+algernon                        docker-compose-completion       gst-validate                    libzdb                          percona-toolkit                 sslscan
+allure                          docker-machine-nfs              gstreamer                       link-grammar                    pex                             sslyze
+amazon-ecs-cli                  doxygen                         gtk+                            linkerd                         pg_top                          statik
+amqp-cpp                        dpkg                            gtk-doc                         liquigraph                      pgbouncer                       stern
+angband                         druid                           gtksourceview3                  little-cms2                     pgcli                           stormlib
+angular-cli                     dub                             gtkspell3                       lldpd                           pgpool-ii                       stubby
+ansible                         duck                            guile                           llvm                            phoronix-test-suite             stunnel
+ansible-lint                    duplicity                       guile@2.0                       logstash                        pianod                          suite-sparse
+ansifilter                      dwdiff                          gx                              logstash@5.6                    pick                            sundials
+antigen                         e2fsprogs                       gx-go                           lsyncd                          picocom                         suricata
+antlr                           ecl                             gzip                            lua                             pigz                            svgcleaner
+antlr4-cpp-runtime              efl                             h2o                             lua@5.1                         pilosa                          swagger-codegen
+apache-arrow                    ejabberd                        hadolint                        lutok                           pinentry                        swi-prolog
+apache-opennlp                  elasticsearch                   hana                            lwtools                         pioneer                         swift
+apache-spark                    elasticsearch@5.6               haproxy                         lxc                             pipenv                          swift-protobuf
+apktool                         elixir                          harfbuzz                        lynis                           pius                            swiftformat
+app-engine-java                 emscripten                      haskell-stack                   lysp                            pjproject                       swiftlint
+aptly                           enchant                         haste-client                    macosvpn                        planck                          sword
+arangodb                        enigma                          hdf5@1.8                        macvim                          plantuml                        syncthing
+argon2                          ephemeralpg                     heartbeat                       magic-wormhole                  platformio                      sysbench
+argyll-cms                      erlang                          heimdal                         mame                            plzip                           tarantool
+armadillo                       erlang@18                       hfstospell                      mapnik                          pmd                             tasksh
+armor                           erlang@19                       hg-flow                         mariadb                         pngquant                        tbb
+artifactory                     etcd                            hh                              mariadb@10.1                    pod2man                         tcl-tk
+asdf                            etsh                            highlight                       mdp                             polyml                          tclap
+aspcud                          exim                            hledger                         media-info                      ponyc                           tectonic
+assimp                          exomizer                        homebank                        mediaconch                      poppler                         telegraf
+ats2-postiats                   exploitdb                       html-xml-utils                  memcached                       postgrest                       termius
+autogen                         faad2                           htop                            menhir                          povray                          terraform
+aws-sdk-cpp                     faas-cli                        httest                          mercurial                       pow                             terraform_landscape
+awscli                          fabio                           httpd                           meson                           ppsspp                          terragrunt
+azure-cli                       fail2ban                        huexpress                       metabase                        pqiv                            texmath
+azure-cli@1                     fcitx-remote-for-osx            hugo                            metaproxy                       pre-commit                      tgui
+b2-tools                        fd                              hydra                           metricbeat                      presto                          thefuck
+bacula-fd                       fdroidserver                    ibex                            mgba                            protobuf                        thrift
+baresip                         feh                             idris                           micro                           psqlodbc                        tidy-html5
+bartycrouch                     ffmpeg                          imagemagick                     midnight-commander              pulledpork                      tig
+bash-git-prompt                 fftw                            imagemagick@6                   mikutter                        pushpin                         tile38
+bash-snippets                   fibjs                           imapfilter                      miller                          pwntools                        tintin
+bazaar                          filebeat                        influxdb@0.8                    mimic                           pyenv                           tinyxml2
+bazel                           fio                             innotop                         minio                           pygobject                       tippecanoe
+bdw-gc                          firebase-cli                    instead                         minio-mc                        pyinvoke                        tmuxinator-completion
+bear                            fish                            irssi                           miniupnpc                       pypy                            tnef
+bench                           flatcc                          iso-codes                       mkvtoolnix                      pypy3                           tomcat
+bento4                          flow                            jboss-forge                     mockserver                      pyqt                            tor
+bettercap                       fluent-bit                      jena                            moco                            python                          tracebox
+bfg                             fluid-synth                     jenkins                         molecule                        python-markdown                 traefik
+binaryen                        flyway                          jenkins-lts                     monetdb                         pyvim                           translate-shell
+bindfs                          fmt                             jfrog-cli-go                    mongo-c-driver                  q                               treefrog
+bit                             fn                              jhipster                        mono                            qbs                             ttfautohint
+bitrise                         fobis                           jpeg-turbo                      mono-libgdiplus                 qca                             tth
+blackbox                        folly                           jruby                           monotone                        qemu                            ttyrec
+blastem                         fonttools                       jsoncpp                         moreutils                       qjackctl                        twarc
+blink1                          fpc                             jsvc                            mpd                             qmmp                            typescript
+blockhash                       freediameter                    juju                            mpg123                          qscintilla2                     uftp
+bluepill                        freeling                        juju-wait                       mpich                           qt                              uhd
+bmake                           freeswitch                      jump                            mpv                             r                               uncrustify
+boost                           freetds                         just                            mr                              rabbitmq                        unoconv
+boost-bcp                       freetype                        kapacitor                       mujs                            radamsa                         urh
+boost-build                     frugal                          karn                            mupdf                           radare2                         vala
+boost-mpi                       fuse-emulator                   kibana                          mupdf-tools                     rancher-cli                     vault
+boost-python                    fuse-zip                        kibana@5.6                      mutt                            rbenv-aliases                   vcdimager
+bowtie2                         fuseki                          kitchen-sync                    mypy                            rbenv-binstubs                  vim
+braid                           fwup                            kite                            mysql                           rbenv-bundle-exec               vim@7.4
+brotli                          fzf                             knot                            mysql++                         rbenv-bundler                   vips
+btfs                            galen                           knot-resolver                   mysql-connector-c++             rbenv-bundler-ruby-version      vowpal-wabbit
+bwfmetaedit                     game-music-emu                  kobalt                          mysql-sandbox                   rbenv-chefdk                    vtk
+byobu                           gammu                           kompose                         mytop                           rbenv-communal-gems             vultr
+bzt                             gandi.cli                       kontena                         nano                            rbenv-ctags                     w3m
+cabal-install                   gauge                           kops                            nasm                            rbenv-default-gems              watson
+cairo                           gdcm                            kotlin                          natalie                         rbenv-gemset                    weboob
+cake                            gearman                         kpcli                           nativefier                      rbenv-use                       webp
+cargo-completion                gedit                           krb5                            nats-streaming-server           rbenv-vars                      webpack
+carthage                        geeqie                          kube-aws                        ncmpcpp                         rbenv-whatis                    websocketd
+cassandra@2.2                   gegl                            kubernetes-cli                  nco                             rclone                          weechat
+cayley                          generate-json-schema            kvazaar                         ndpi                            re2                             wesnoth
+ceres-solver                    geoserver                       kyoto-tycoon                    neko                            rebar@3                         wget
+certbot                         get_iplayer                     kyua                            newsboat                        recutils                        whois
+cgrep                           getdns                          landscaper                      nghttp2                         redis                           widelands
+chakra                          geth                            languagetool                    ngrep                           redpen                          wine
+charm                           getmail                         latexila                        nikto                           remake                          winetricks
+cheat                           gexiv2                          lbdb                            nmh                             reminiscence                    wireguard-tools
+check_postgres                  ghc                             ldc                             nnn                             reposurgeon                     wireshark
+checkstyle                      ghi                             ledger                          node-build                      restic                          wolfssl
+chicken                         gifsicle                        lgogdownloader                  node@4                          rocksdb                         wpscan
+chromedriver                    git                             libassuan                       node@6                          rom-tools                       writerperfect
+chronograf                      git-annex                       libatomic_ops                   nodebrew                        root                            wtf
+cimg                            git-crypt                       libbitcoin                      nomad                           roswell                         x265
+citus                           git-ftp                         libbitcoin-blockchain           notmuch                         rpm                             x3270
+clang-format                    git-secret                      libbitcoin-database             nq                              rtags                           xcenv
+clhep                           git-town                        libbitcoin-explorer             nrpe                            rtv                             xmoto
+clipper                         gitbucket                       libbitcoin-node                 nsd                             ruby-build                      xmrig
+clojure                         gitg                            libbitcoin-server               nss                             ruby@1.9                        xonsh
+closure-compiler                github-keygen                   libbluray                       ntopng                          ruby@2.0                        xrootd
+cmake                           gitlab-runner                   libcddb                         nuget                           ruby@2.1                        xtensor
+cmark-gfm                       gitup                           libcdio                         nvc                             ruby@2.2                        xxhash
+cockroach                       gjstest                         libcdr                          nvm                             ruby@2.3                        yaf
+coffeescript                    glade                           libcds                          ocaml-num                       rust                            yaz
+commandbox                      glib                            libconfig                       ocamlbuild                      rustup-init                     ydcv
+conan                           global                          libcouchbase                    octave                          s-nail                          ykman
+conjure-up                      glog                            libdivecomputer                 ohcount                         s3fs                            yle-dl
+consul                          glpk                            libdvdcss                       oniguruma                       s6                              you-get
+convox                          gmic                            libfabric                       onioncat                        sagittarius-scheme              youtube-dl
+coq                             gmime                           libgcrypt                       onscripter                      sbcl                            yubico-piv-tool
+corebird                        gmt                             libgig                          open-mpi                        sbt                             z3
+coreutils                       gmt@4                           libgit2-glib                    open-scene-graph                sc-im                           zabbix
+corsixth                        gnome-builder                   libgosu                         opencbm                         scalariform                     zanata-client
+coturn                          gnome-recipes                   libgweather                     opencv                          scamper                         zbar
+couchdb                         gnu-smalltalk                   libhttpseverywhere              opencv@2                        sccache                         zebra
+couchdb-lucene                  gnu-tar                         libjson-rpc-cpp                 openmotif                       sdl2_mixer                      zero-install
+cppad                           gnumeric                        liblcf                          openshift-cli                   sdl_mixer                       zeromq
+cpprestsdk                      gnupg                           liblinear                       openttd                         sec                             zile
+creduce                         gnupg@2.0                       libmaxminddb                    optipng                         securefs                        zimg
+cromwell                        gnuplot                         libmicrohttpd                   osc                             selenium-server-standalone      zorba
+crosstool-ng                    gnuplot@4                       libmspub                        osm2pgrouting                   sfk                             zplug
+crowdin                         gnuradio                        libmwaw                         osm2pgsql                       shadowsocks-libev               zsh
+crystal-icr                     goffice                         libphonenumber                  osquery                         shairport-sync                  zsh-autosuggestions
+crystal-lang                    gollum                          libpqxx                         osrm-backend                    shellcheck                      zstd
+cucumber-cpp                    goolabs                         libpqxx@3                       ott                             shfmt                           zurl
+curl                            gopass                          libqalculate                    packer                          shmcat
+czmq                            gosu                            libquvi                         packetbeat                      shpotify
+dar                             gperftools                      libraw                          packmol                         sile
+datomic                         gpg-agent                       librdkafka                      paket                           simgrid
+davmail                         gpgme                           librealsense                    pandoc                          sip
+==> Renamed Formulae
+camlistore -> perkeep
+==> Deleted Formulae
+angolmois          clasp              geogit             gringo             lua@5.3            mongodb@2.6        otto               pond               ponscripter-sekai  stklos
+
+==> Installing dependencies for yarn: icu4c, node
+==> Installing yarn dependency: icu4c
+==> Downloading https://homebrew.bintray.com/bottles/icu4c-60.2.sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring icu4c-60.2.sierra.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides libicucore.dylib (but nothing else).
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/usr/local/opt/icu4c/bin:$PATH"' >> ~/.bash_profile
+  echo 'export PATH="/usr/local/opt/icu4c/sbin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/usr/local/opt/icu4c/lib
+    CPPFLAGS: -I/usr/local/opt/icu4c/include
+
+==> Summary
+🍺  /usr/local/Cellar/icu4c/60.2: 249 files, 67MB
+==> Installing yarn dependency: node
+==> Downloading https://homebrew.bintray.com/bottles/node-9.3.0_1.sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring node-9.3.0_1.sierra.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/node/9.3.0_1: 5,125 files, 49.6MB
+==> Installing yarn
+==> Downloading https://yarnpkg.com/downloads/1.3.2/yarn-v1.3.2.tar.gz
+==> Downloading from https://github.com/yarnpkg/yarn/releases/download/v1.3.2/yarn-v1.3.2.tar.gz
+######################################################################## 100.0%
+🍺  /usr/local/Cellar/yarn/1.3.2: 14 files, 3.9MB, built in 4 seconds
+Brads-MBP:Thinkful bradgarner$ yarn --version
+1.3.2
+Brads-MBP:Thinkful bradgarner$ ls
+DSA                     ThinkfulPreWork         english-to-english      python-blog             week04                  week10
+DavidGrimmWhiskey       What-The-CSS            node-jwt-auth           react-native-app1       week05
+GRSWM                   WhatTheCSS              npmatch                 week01                  week06
+NOTES                   codetogo                npmatch-server          week02                  week07
+SlickNav-master 2       commandLine.txt         posts                   week03                  week08
+Brads-MBP:Thinkful bradgarner$ cd react-native-app1/
+Brads-MBP:react-native-app1 bradgarner$ npm start
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/bradgarner/.npm/_logs/2018-01-09T15_05_24_240Z-debug.log
+Brads-MBP:react-native-app1 bradgarner$ cd ..
+Brads-MBP:Thinkful bradgarner$ ls
+DSA                     ThinkfulPreWork         english-to-english      python-blog             week04                  week10
+DavidGrimmWhiskey       What-The-CSS            node-jwt-auth           react-native-app1       week05
+GRSWM                   WhatTheCSS              npmatch                 week01                  week06
+NOTES                   codetogo                npmatch-server          week02                  week07
+SlickNav-master 2       commandLine.txt         posts                   week03                  week08
+Brads-MBP:Thinkful bradgarner$ rm -rf react-native-app1
+Brads-MBP:Thinkful bradgarner$ export PATH="$PATH: `yard global bin`"
+bash: yard: command not found
+Brads-MBP:Thinkful bradgarner$ export PATH="$PATH: `yarn global bin`"
+Brads-MBP:Thinkful bradgarner$ yarn add [create-react-native-app]
+yarn add v1.3.2
+info No lockfile found.
+[1/4] 🔍  Resolving packages...
+error Couldn't find package "[create-react-native-app]" on the "npm" registry.
+info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this command.
+Brads-MBP:Thinkful bradgarner$ npm install -g yarn
+npm WARN deprecated yarn@1.3.2: It is recommended to install Yarn using the native installation method for your environment. See https://yarnpkg.com/en/docs/install
+/usr/local/bin/yarn -> /usr/local/lib/node_modules/yarn/bin/yarn.js
+/usr/local/bin/yarnpkg -> /usr/local/lib/node_modules/yarn/bin/yarn.js
++ yarn@1.3.2
+added 1 package in 1.367s
+Brads-MBP:Thinkful bradgarner$ yarn global add create-react-native-app
+yarn global v1.3.2
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+[4/4] 📃  Building fresh packages...
+success Installed "create-react-native-app@1.0.0" with binaries:
+      - create-react-native-app
+✨  Done in 15.06s.
+Brads-MBP:Thinkful bradgarner$ ls
+DSA                     ThinkfulPreWork         english-to-english      python-blog             week05
+DavidGrimmWhiskey       What-The-CSS            node-jwt-auth           week01                  week06
+GRSWM                   WhatTheCSS              npmatch                 week02                  week07
+NOTES                   codetogo                npmatch-server          week03                  week08
+SlickNav-master 2       commandLine.txt         posts                   week04                  week10
+Brads-MBP:Thinkful bradgarner$ create-react-native-app react-native-app1
+Creating a new React Native app in /Users/bradgarner/Desktop/Thinkful/react-native-app1.
+
+Using package manager as yarnpkg with yarn interface.
+Installing packages. This might take a couple minutes.
+Installing react-native-scripts...
+
+yarn add v1.3.2
+info No lockfile found.
+[1/4] 🔍  Resolving packages...
+warning react-native-scripts > xdl > auth0-js > xtend > object-keys@0.4.0:
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+warning "react-native-scripts > xdl > react-redux@5.0.6" has unmet peer dependency "react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0".
+[4/4] 📃  Building fresh packages...
+success Saved lockfile.
+success Saved 380 new dependencies.
+├─ @expo/bunyan@1.8.10
+├─ @expo/json-file@5.3.0
+├─ @expo/osascript@1.8.1
+├─ @expo/schemer@1.1.0
+├─ @expo/spawn-async@1.3.0
+├─ @segment/loosely-validate-event@1.1.2
+├─ accepts@1.3.4
+├─ agent-base@2.1.1
+├─ ajv@5.5.2
+├─ analytics-node@2.4.1
+├─ ansi-escapes@3.0.0
+├─ ansi-regex@3.0.0
+├─ ansi-styles@3.2.0
+├─ any-promise@1.3.0
+├─ array-flatten@1.1.1
+├─ array-union@1.0.2
+├─ array-uniq@1.0.3
+├─ asap@2.0.6
+├─ asn1@0.2.3
+├─ assert-plus@1.0.0
+├─ ast-types@0.10.1
+├─ async@1.5.2
+├─ asynckit@0.4.0
+├─ auth0-js@7.6.1
+├─ auth0@2.9.1
+├─ aws-sign2@0.7.0
+├─ aws4@1.6.0
+├─ axios@0.16.2
+├─ babel-plugin-syntax-flow@6.18.0
+├─ babel-plugin-transform-flow-strip-types@6.22.0
+├─ babel-polyfill@6.26.0
+├─ babel-preset-flow@6.23.0
+├─ babel-runtime@6.26.0
+├─ balanced-match@1.0.0
+├─ base64-js@1.2.0
+├─ Base64@0.1.4
+├─ base64url@2.0.0
+├─ bcrypt-pbkdf@1.0.1
+├─ bluebird@2.11.0
+├─ body-parser@1.18.2
+├─ boom@4.3.1
+├─ brace-expansion@1.1.8
+├─ buffer-equal-constant-time@1.0.1
+├─ bytes@3.0.0
+├─ callsite@1.0.0
+├─ camel-case@1.2.2
+├─ capture-stack-trace@1.0.0
+├─ caseless@0.12.0
+├─ chalk@2.3.0
+├─ change-case@2.3.1
+├─ chardet@0.4.2
+├─ chownr@1.0.1
+├─ cli-cursor@2.1.0
+├─ cli-width@2.2.0
+├─ clone@2.1.1
+├─ co@4.6.0
+├─ color-convert@1.9.1
+├─ color-name@1.1.3
+├─ combined-stream@1.0.5
+├─ commander@2.12.2
+├─ component-emitter@1.2.1
+├─ component-type@1.2.1
+├─ concat-map@0.0.1
+├─ concat-stream@1.6.0
+├─ constant-case@1.1.2
+├─ content-disposition@0.5.2
+├─ content-type@1.0.4
+├─ cookie-signature@1.0.6
+├─ cookie@0.3.1
+├─ cookiejar@2.1.1
+├─ core-js@2.5.3
+├─ core-util-is@1.0.2
+├─ create-error-class@3.0.2
+├─ cross-spawn@5.1.0
+├─ cryptiles@3.1.2
+├─ crypto-token@1.0.1
+├─ dashdash@1.14.1
+├─ data-uri-to-buffer@1.2.0
+├─ debug@2.6.9
+├─ decache@4.3.0
+├─ deep-diff@0.3.4
+├─ deep-is@0.1.3
+├─ deepmerge@1.5.2
+├─ define-properties@1.1.2
+├─ degenerator@1.0.4
+├─ delay-async@1.1.0
+├─ delayed-stream@1.0.0
+├─ depd@1.1.1
+├─ destroy@1.0.4
+├─ dot-case@1.1.2
+├─ duplexer3@0.1.4
+├─ ecc-jsbn@0.1.1
+├─ ecdsa-sig-formatter@1.0.9
+├─ ee-first@1.1.1
+├─ encodeurl@1.0.1
+├─ encoding@0.1.12
+├─ es-abstract@1.10.0
+├─ es-to-primitive@1.1.1
+├─ es6-error@4.1.1
+├─ es6-promise@4.2.2
+├─ es6-promisify@5.0.0
+├─ escape-html@1.0.3
+├─ escape-string-regexp@1.0.5
+├─ escodegen@1.9.0
+├─ esprima@3.1.3
+├─ estraverse@4.2.0
+├─ esutils@2.0.2
+├─ etag@1.8.1
+├─ exec-async@2.2.0
+├─ exists-async@2.0.0
+├─ express@4.16.2
+├─ extend@3.0.1
+├─ external-editor@2.1.0
+├─ extsprintf@1.3.0
+├─ fast-deep-equal@1.0.0
+├─ fast-json-stable-stringify@2.0.0
+├─ fast-levenshtein@2.0.6
+├─ fbjs@0.8.16
+├─ figures@2.0.0
+├─ file-type@4.4.0
+├─ file-uri-to-path@1.0.0
+├─ finalhandler@1.1.0
+├─ follow-redirects@1.3.0
+├─ foreach@2.0.5
+├─ forever-agent@0.6.1
+├─ form-data@2.3.1
+├─ formidable@1.1.1
+├─ forwarded@0.1.2
+├─ freeport-async@1.1.1
+├─ fresh@0.5.2
+├─ fs-extra@3.0.1
+├─ fs-minipass@1.2.5
+├─ fs.realpath@1.0.0
+├─ ftp@0.3.10
+├─ function-bind@1.1.1
+├─ get-stream@3.0.0
+├─ get-uri@2.0.1
+├─ getenv@0.7.0
+├─ getpass@0.1.7
+├─ glob@7.1.2
+├─ globby@6.1.0
+├─ got@6.7.1
+├─ graceful-fs@4.1.11
+├─ har-schema@2.0.0
+├─ har-validator@5.0.3
+├─ has-flag@2.0.0
+├─ has-symbols@1.0.0
+├─ has@1.0.1
+├─ hasbin@1.2.3
+├─ hawk@6.0.2
+├─ hoek@4.2.0
+├─ hoist-non-react-statics@2.3.1
+├─ home-dir@1.0.0
+├─ http-errors@1.6.2
+├─ http-proxy-agent@1.0.0
+├─ http-signature@1.2.0
+├─ https-proxy-agent@1.0.0
+├─ iconv-lite@0.4.19
+├─ idx@2.2.0
+├─ indent-string@3.2.0
+├─ inflight@1.0.6
+├─ inherits@2.0.3
+├─ inquirer@3.3.0
+├─ instapromise@2.0.7-rc.1
+├─ invariant@2.2.2
+├─ ip@1.1.5
+├─ ipaddr.js@1.5.2
+├─ is-buffer@1.1.6
+├─ is-callable@1.1.3
+├─ is-date-object@1.0.1
+├─ is-fullwidth-code-point@2.0.0
+├─ is-lower-case@1.1.3
+├─ is-promise@2.1.0
+├─ is-redirect@1.0.0
+├─ is-regex@1.0.4
+├─ is-retry-allowed@1.1.0
+├─ is-stream@1.1.0
+├─ is-symbol@1.0.1
+├─ is-typedarray@1.0.0
+├─ is-upper-case@1.1.2
+├─ isarray@1.0.0
+├─ isemail@2.2.1
+├─ isexe@2.0.0
+├─ isomorphic-fetch@2.2.1
+├─ isstream@0.1.2
+├─ items@2.1.1
+├─ joi@10.6.0
+├─ join-component@1.1.0
+├─ js-tokens@3.0.2
+├─ jsbn@0.1.1
+├─ json-fallback@0.0.1
+├─ json-schema-traverse@0.3.1
+├─ json-schema@0.2.3
+├─ json-stringify-safe@5.0.1
+├─ json5@0.5.1
+├─ jsonfile@2.4.0
+├─ jsonp@0.0.4
+├─ jsonschema@1.2.2
+├─ jsonwebtoken@7.4.3
+├─ jsprim@1.4.1
+├─ jwa@1.1.5
+├─ jws@3.1.4
+├─ levn@0.3.0
+├─ lock@0.1.4
+├─ lodash-es@4.17.4
+├─ lodash.once@4.1.1
+├─ lodash@4.17.4
+├─ loose-envify@1.3.1
+├─ lower-case-first@1.0.2
+├─ lower-case@1.1.4
+├─ lowercase-keys@1.0.0
+├─ lru-cache@4.1.1
+├─ lru-memoizer@1.11.1
+├─ lsmod@1.0.0
+├─ match-require@2.1.0
+├─ md5hex@1.0.0
+├─ media-typer@0.3.0
+├─ merge-descriptors@1.0.1
+├─ methods@1.1.2
+├─ mime-db@1.30.0
+├─ mime-types@2.1.17
+├─ mime@1.4.1
+├─ mimic-fn@1.1.0
+├─ minimatch@3.0.4
+├─ minimist@1.2.0
+├─ minipass@2.2.1
+├─ minizlib@1.1.0
+├─ mkdirp-promise@5.0.1
+├─ mkdirp@0.5.1
+├─ moment@2.20.1
+├─ ms@2.0.0
+├─ mute-stream@0.0.7
+├─ mv@2.1.1
+├─ mz@2.7.0
+├─ ncp@2.0.0
+├─ negotiator@0.6.1
+├─ netmask@1.0.6
+├─ next-tick@1.0.0
+├─ node-fetch@1.7.3
+├─ oauth-sign@0.8.2
+├─ object-assign@4.1.1
+├─ object-keys@1.0.11
+├─ object.assign@4.1.0
+├─ object.getownpropertydescriptors@2.0.3
+├─ on-finished@2.3.0
+├─ once@1.4.0
+├─ onetime@2.0.1
+├─ opn@4.0.2
+├─ optionator@0.8.2
+├─ os-tmpdir@1.0.2
+├─ pac-proxy-agent@2.0.0
+├─ pac-resolver@3.0.0
+├─ param-case@1.1.2
+├─ parseurl@1.3.2
+├─ pascal-case@1.1.2
+├─ path-case@1.1.2
+├─ path-exists@3.0.0
+├─ path-is-absolute@1.0.1
+├─ path-to-regexp@0.1.7
+├─ performance-now@2.1.0
+├─ pify@2.3.0
+├─ pinkie-promise@2.0.1
+├─ pinkie@2.0.4
+├─ plist@2.1.0
+├─ prelude-ls@1.1.2
+├─ prepend-http@1.0.4
+├─ probe-image-size@3.2.0
+├─ process-nextick-args@1.0.7
+├─ progress@2.0.0
+├─ promise@7.3.1
+├─ prop-types@15.6.0
+├─ proxy-addr@2.0.2
+├─ proxy-agent@2.1.0
+├─ pseudomap@1.0.2
+├─ punycode@1.3.2
+├─ qrcode-terminal@0.11.0
+├─ qs@6.5.1
+├─ querystring@0.2.0
+├─ range-parser@1.2.0
+├─ raven-js@3.21.0
+├─ raven@2.3.0
+├─ raw-body@2.3.2
+├─ react-native-scripts@1.8.1
+├─ react-redux@5.0.6
+├─ read-chunk@2.1.0
+├─ readable-stream@2.3.3
+├─ redux-logger@2.10.2
+├─ redux@3.7.2
+├─ regenerator-runtime@0.11.1
+├─ remove-trailing-slash@0.1.0
+├─ replace-string@1.1.0
+├─ request-progress@3.0.0
+├─ request@2.83.0
+├─ reqwest@2.0.5
+├─ rest-facade@1.10.1
+├─ restore-cursor@2.0.0
+├─ retry@0.10.1
+├─ rimraf@2.6.2
+├─ run-async@2.3.0
+├─ rx-lite-aggregates@4.0.8
+├─ rx-lite@4.0.8
+├─ safe-buffer@5.1.1
+├─ safe-json-stringify@1.0.4
+├─ semver@5.0.3
+├─ send@0.16.1
+├─ sentence-case@1.1.3
+├─ serve-static@1.13.1
+├─ setimmediate@1.0.5
+├─ setprototypeof@1.1.0
+├─ shebang-command@1.2.0
+├─ shebang-regex@1.0.0
+├─ signal-exit@3.0.2
+├─ slugid@1.1.0
+├─ slugify@1.2.9
+├─ smart-buffer@1.1.15
+├─ snake-case@1.1.2
+├─ sntp@2.1.0
+├─ socks-proxy-agent@2.1.1
+├─ socks@1.1.10
+├─ source-map-support@0.4.18
+├─ source-map@0.5.7
+├─ sshpk@1.13.1
+├─ stack-trace@0.0.9
+├─ statuses@1.3.1
+├─ stream-parser@0.3.1
+├─ string_decoder@1.0.3
+├─ string-width@2.1.1
+├─ stringstream@0.0.5
+├─ strip-ansi@4.0.0
+├─ superagent-proxy@1.0.2
+├─ superagent-retry@0.6.0
+├─ superagent@3.8.2
+├─ supports-color@4.5.0
+├─ swap-case@1.1.2
+├─ symbol-observable@1.1.0
+├─ tar@4.2.0
+├─ thenify-all@1.6.0
+├─ thenify@3.3.0
+├─ throttleit@1.0.0
+├─ through@2.3.8
+├─ thunkify@2.1.2
+├─ timed-out@4.0.1
+├─ title-case@1.1.2
+├─ tmp@0.0.33
+├─ topo@2.0.2
+├─ tough-cookie@2.3.3
+├─ tree-kill@1.2.0
+├─ trim@0.0.1
+├─ tunnel-agent@0.6.0
+├─ tweetnacl@0.14.5
+├─ type-check@0.3.2
+├─ type-is@1.6.15
+├─ typedarray@0.0.6
+├─ ua-parser-js@0.7.17
+├─ universalify@0.1.1
+├─ unpipe@1.0.0
+├─ unzip-response@2.0.1
+├─ upper-case-first@1.1.2
+├─ upper-case@1.1.3
+├─ url-parse-lax@1.0.0
+├─ url@0.11.0
+├─ util-deprecate@1.0.2
+├─ util.promisify@1.0.0
+├─ utils-merge@1.0.1
+├─ uuid@3.1.0
+├─ vary@1.1.2
+├─ verror@1.10.0
+├─ very-fast-args@1.1.0
+├─ whatwg-fetch@2.0.3
+├─ which@1.3.0
+├─ winchan@0.1.4
+├─ wordwrap@1.0.0
+├─ wrappy@1.0.2
+├─ xdl@47.0.4
+├─ xmlbuilder@8.2.2
+├─ xmldom@0.1.27
+├─ xregexp@2.0.0
+├─ xtend@4.0.1
+├─ yallist@2.1.2
+└─ yesno@0.0.1
+✨  Done in 106.56s.
+Installing dependencies using yarn...
+
+yarn install v1.3.2
+[1/4] 🔍  Resolving packages...
+warning react-native > connect@2.30.2: connect 2.x series is deprecated
+warning react-native > fbjs-scripts > gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+warning "jest-expo > babel-jest@21.2.0" has unmet peer dependency "babel-core@^6.0.0 || ^7.0.0-alpha || ^7.0.0-beta || ^7.0.0".
+[4/4] 📃  Building fresh packages...
+success Saved lockfile.
+✨  Done in 233.01s.
+
+
+Success! Created react-native-app1 at /Users/bradgarner/Desktop/Thinkful/react-native-app1
+Inside that directory, you can run several commands:
+
+  yarn start
+    Starts the development server so you can open your app in the Expo
+    app on your phone.
+
+  yarn run ios
+    (Mac only, requires Xcode)
+    Starts the development server and loads your app in an iOS simulator.
+
+  yarn run android
+    (Requires Android build tools)
+    Starts the development server and loads your app on a connected Android
+    device or emulator.
+
+  yarn test
+    Starts the test runner.
+
+  yarn run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd react-native-app1
+  yarn start
+
+Happy hacking!
+Brads-MBP:Thinkful bradgarner$ cd react-native-app1/
+Brads-MBP:react-native-app1 bradgarner$ yarn start
+yarn run v1.3.2
+$ react-native-scripts start
+10:20:56 AM: Unable to start server
+See https://git.io/v5vcn for more information, either install watchman or run the following snippet:
+  sudo sysctl -w kern.maxfiles=5242880
+  sudo sysctl -w kern.maxfilesperproc=524288
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Brads-MBP:react-native-app1 bradgarner$ sudo sysctl -w kern.maxfiles=5242880
+Password:
+Sorry, try again.
+Password:
+kern.maxfiles: 12288 -> 5242880
+Brads-MBP:react-native-app1 bradgarner$ yarn start
+yarn run v1.3.2
+$ react-native-scripts start
+10:22:19 AM: Starting packager...
+Packager started!
+
+To view your app with live reloading, point the Expo app to this QR code.
+You'll find the QR scanner on the Projects tab of the app.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Or enter this address in the Expo app's search bar:
+
+  exp://192.168.1.159:19000
+
+Your phone will need to be on the same local network as this computer.
+For links to install the Expo app, please visit https://expo.io.
+
+Logs from serving your app will appear here. Press Ctrl+C at any time to stop.
+
+ › Press a to open Android device or emulator, or i to open iOS emulator.
+ › Press q to display QR code.
+ › Press r to restart packager, or R to restart packager and clear cache.
+ › Press d to toggle development mode. (current mode: development)
+
+10:28:55 AM: Stopping packager...
+10:28:55 AM: Packager stopped.
+✨  Done in 397.13s.
+Brads-MBP:react-native-app1 bradgarner$ yarn start
+yarn run v1.3.2
+$ react-native-scripts start
+10:29:12 AM: Starting packager...
+Packager started!
+
+To view your app with live reloading, point the Expo app to this QR code.
+You'll find the QR scanner on the Projects tab of the app.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Or enter this address in the Expo app's search bar:
+
+  exp://192.168.1.159:19000
+
+Your phone will need to be on the same local network as this computer.
+For links to install the Expo app, please visit https://expo.io.
+
+Logs from serving your app will appear here. Press Ctrl+C at any time to stop.
+
+ › Press a to open Android device or emulator, or i to open iOS emulator.
+ › Press q to display QR code.
+ › Press r to restart packager, or R to restart packager and clear cache.
+ › Press d to toggle development mode. (current mode: development)
+
+10:36:16 AM: Stopping packager...
+10:36:16 AM: Packager stopped.
+✨  Done in 425.08s.
+Brads-MBP:react-native-app1 bradgarner$ yarn run ios
+yarn run v1.3.2
+$ react-native-scripts ios
+10:36:24 AM: Starting packager...
+10:36:33 AM: Starting simulator...
+Can't determine id of Simulator app; the Simulator is most likely not installed on this machine { Error: Command failed: osascript -e id of app "Simulator"
+0:2: execution error: Can’t get application "Simulator". (-1728)
+
+    at ChildProcess.exithandler (child_process.js:272:12)
+    at ChildProcess.emit (events.js:159:13)
+    at maybeClose (internal/child_process.js:943:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
+  killed: false,
+  code: 1,
+  signal: null,
+  cmd: 'osascript -e id of app "Simulator"' }
+10:36:34 AM: Failed to start simulator:
+
+Unable to verify Xcode and Simulator installation.
+
+Exiting...
+✨  Done in 10.83s.
+Brads-MBP:react-native-app1 bradgarner$ yarn add xcode
+yarn add v1.3.2
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+warning "jest-expo > babel-jest@21.2.0" has unmet peer dependency "babel-core@^6.0.0 || ^7.0.0-alpha || ^7.0.0-beta || ^7.0.0".
+[4/4] 📃  Building fresh packages...
+success Saved lockfile.
+success Saved 1 new dependency.
+└─ xcode@1.0.0
+✨  Done in 7.35s.
+Brads-MBP:react-native-app1 bradgarner$ yarn run ios
+yarn run v1.3.2
+$ react-native-scripts ios
+10:38:06 AM: Starting packager...
+10:38:17 AM: Starting simulator...
+Can't determine id of Simulator app; the Simulator is most likely not installed on this machine { Error: Command failed: osascript -e id of app "Simulator"
+0:2: execution error: Can’t get application "Simulator". (-1728)
+
+    at ChildProcess.exithandler (child_process.js:272:12)
+    at ChildProcess.emit (events.js:159:13)
+    at maybeClose (internal/child_process.js:943:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
+  killed: false,
+  code: 1,
+  signal: null,
+  cmd: 'osascript -e id of app "Simulator"' }
+10:38:17 AM: Failed to start simulator:
+
+Unable to verify Xcode and Simulator installation.
+
+Exiting...
+✨  Done in 11.79s.
+Brads-MBP:react-native-app1 bradgarner$ xcode-select --install
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates
+Brads-MBP:react-native-app1 bradgarner$ xcode-select --update
+xcode-select: error: invalid argument '--update'
+Usage: xcode-select [options]
+
+Print or change the path to the active developer directory. This directory
+controls which tools are used for the Xcode command line tools (for example,
+xcodebuild) as well as the BSD development commands (such as cc and make).
+
+Options:
+  -h, --help                  print this help message and exit
+  -p, --print-path            print the path of the active developer directory
+  -s <path>, --switch <path>  set the path for the active developer directory
+  --install                   open a dialog for installation of the command line developer tools
+  -v, --version               print the xcode-select version
+  -r, --reset                 reset to the default command line tools path
+Brads-MBP:react-native-app1 bradgarner$ xcode-select -v
+xcode-select version 2347.
+Brads-MBP:react-native-app1 bradgarner$ react-native-scripts ios
+bash: react-native-scripts: command not found
+Brads-MBP:react-native-app1 bradgarner$ ls
+App.js          App.test.js     README.md       app.json        node_modules    package.json    yarn.lock
+Brads-MBP:react-native-app1 bradgarner$ yarn run ios
+yarn run v1.3.2
+$ react-native-scripts ios
+10:43:40 AM: Starting packager...
+10:43:49 AM: Starting simulator...
+Can't determine id of Simulator app; the Simulator is most likely not installed on this machine { Error: Command failed: osascript -e id of app "Simulator"
+0:2: execution error: Can’t get application "Simulator". (-1728)
+
+    at ChildProcess.exithandler (child_process.js:272:12)
+    at ChildProcess.emit (events.js:159:13)
+    at maybeClose (internal/child_process.js:943:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
+  killed: false,
+  code: 1,
+  signal: null,
+  cmd: 'osascript -e id of app "Simulator"' }
+10:43:49 AM: Failed to start simulator:
+
+Unable to verify Xcode and Simulator installation.
+
+Exiting...
+✨  Done in 10.25s.
+Brads-MBP:react-native-app1 bradgarner$ yarn run ios
+yarn run v1.3.2
+$ react-native-scripts ios
+11:53:59 AM: Starting packager...
+11:54:09 AM: Starting simulator...
+11:54:11 AM: Failed to start simulator:
+
+Unable to verify Xcode and Simulator installation.
+
+Exiting...
+✨  Done in 12.47s.
+Brads-MBP:react-native-app1 bradgarner$ yarn run ios
+yarn run v1.3.2
+$ react-native-scripts ios
+11:56:42 AM: Starting packager...
+11:56:54 AM: Starting simulator...
+11:57:50 AM: Packager started!
+
+To view your app with live reloading, point the Expo app to this QR code.
+You'll find the QR scanner on the Projects tab of the app.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Or enter this address in the Expo app's search bar:
+
+  exp://192.168.1.159:19000
+
+Your phone will need to be on the same local network as this computer.
+For links to install the Expo app, please visit https://expo.io.
+
+Logs from serving your app will appear here. Press Ctrl+C at any time to stop.
+
+If you restart the simulator or change the simulated hardware, you may need to restart this process.
+
+11:59:05 AM: Finished building JavaScript bundle in 64640ms
+11:59:06 AM: Running app on Brad in development mode
+
+^C12:00:14 PM: Stopping packager...
+
+Brads-MBP:react-native-app1 bradgarner$ 12:00:14 PM: Packager stopped.
+Brads-MBP:react-native-app1 bradgarner$
