@@ -1,12 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import App1 from './src/App1';
-
 export default class App extends React.Component {
   render() {
     return (
-      <App1/>
+      <View style={styles.container}>
+        <Text>Hello from Simulator!!!</Text>
+        <Text>Open up App.js to start working on your app!</Text>
+        <Text>Changes you make will automatically reload.</Text>
+        <Text>Shake your phone to open the developer menu.</Text>
+      </View>
     );
   }
 }
